@@ -25,3 +25,24 @@ void main(){
     printf("%d\n",s.roll);
     printf("%s\n", s.name);
 }
+
+/*
+(*) Advantages of Structure :-
+                             --> It can hold variables of different data types .
+
+                             --> We can create objects containing different types of attributes .
+
+                             --> It allows us to reuse the data layout across programs .
+
+                             --> It is used to implement other data structure like linked list,queues , trees and graphs.
+
+(*) Basic syntax of structure:-
+                              struct StructureName {
+                                 data_type member1;
+                                 data_type member2;
+                                                    };
+
+
+
+                                                    
+*/
