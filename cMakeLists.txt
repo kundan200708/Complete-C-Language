@@ -1,0 +1,16 @@
+cmake_minimum_required(VERSION 3.10)
+project(Complete-C-Language)
+
+set(CMAKE_C_STANDARD 11)
+set(CMAKE_C_STANDARD_REQUIRED ON)
+
+# Add source files from your directories
+# Basics
+add_executable(basics 01-Basics-Of-C/main.c)
+
+# You can add more executables for other modules as needed:
+# add_executable(operators 02-Operators/main.c)
+# add_executable(decision 03-Decision-Control-statement/main.c)
+
+enable_testing()
+# add_test(NAME basics_test COMMAND basics)
